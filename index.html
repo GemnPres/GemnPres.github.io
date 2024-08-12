@@ -46,6 +46,12 @@
         .content-section h3 {
             margin-top: 0;
         }
+        .project {
+            margin-bottom: 20px;
+        }
+        .project h4 {
+            margin: 10px 0;
+        }
         footer {
             background-color: #333;
             color: #fff;
@@ -62,6 +68,10 @@
         a:hover {
             text-decoration: underline;
         }
+        audio {
+            margin-top: 10px;
+            display: block;
+        }
     </style>
 </head>
 <body>
@@ -74,7 +84,7 @@
     <div class="hero">
         <div class="container">
             <h2>Welcome to My Academic Page</h2>
-            <p>Explore my research, publications, and projects.</p>
+            <p>Explore my research, thesis, projects, and more.</p>
         </div>
     </div>
 
@@ -85,8 +95,61 @@
         </div>
 
         <div class="content-section">
-            <h3>Publications</h3>
-            <p>A list of your academic publications with links and brief descriptions.</p>
+            <h3>Thesis and Projects</h3>
+            
+            <!-- Example Thesis with PDF and Code Link -->
+            <div class="project">
+                <h4>Master's Thesis "In the shadow, Neural Networks tricked by visual illusions"</h4>
+                <p>If the ultimate goal for a neural network is to perceive scenes and objects as humans do, we can’t help but wonder: can neural networks also be tricked by visual illusions.</p>
+                <p>
+                    <a href="https://escholarship.org/uc/item/1md2q6nq" target="_blank">Read Thesis PDF</a>
+                </p>
+            </div>
+            
+            <div class="project">
+                <h4>Bachelor's Senior Design "Flat Panel Smart Speaker"</h4>
+                <p></p>
+                <p>
+                    <a href="https://www.hajim.rochester.edu/senior-design-day/flat-panel-smart-speaker/" target="_blank">View Project Website</a> | 
+                    <a href="assets/pdfs/Senior_Design_Poster.pdf" target="_blank">View Poster</a> | 
+                    <a href="assets/reports/Senior_Design_Report.pdf" target="_blank">Read Project Report</a>
+                </p>
+            </div>
+            
+            <div class="project">
+                <h4>Discovery Grant Project: Singing Glass</h4>
+                <p>Singing Glass.</p>
+                <p>
+                    <a href="assets/pdfs/Discovery_Grant_Poster.pdf" target="_blank">View Poster</a> | 
+                    <a href="https://www.youtube.com/watch?v=mLEOphSh7gE&feature=youtu.be">View Demo Video</a>
+                </p>
+            </div>
+
+            <div class="project">
+                <h4>Discovery Grant Project: Singing Glass</h4>
+                <p>Singing Glass.</p>
+                <p>
+                    <a href="assets/pdfs/Glass_Poster.pdf" target="_blank">View Poster</a> | 
+                    <a href="https://www.youtube.com/watch?v=mLEOphSh7gE&feature=youtu.be">View Demo Video</a>
+                </p>
+            </div>
+            
+
+            <!-- Example Project with Audio, PDF, and Code Link -->
+            <div class="project">
+                <h4>Automated Text Summarization</h4>
+                <p>This project focused on creating algorithms for summarizing large text documents.</p>
+                <p>
+                    <a href="https://github.com/username/repository2" target="_blank">View Code</a> | 
+                    <a href="pdfs/text-summarization.pdf" target="_blank">View PDF</a>
+                </p>
+                <p>Listen to the audio:</p>
+                <audio controls>
+                    <source src="audio/summarization-demo.wav" type="audio/wav">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+
         </div>
 
         <div class="content-section">
